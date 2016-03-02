@@ -1,0 +1,15 @@
+img {
+	width:200px;
+	height:200px;
+	border-style:solid;
+	border-color:black;
+	border-radius:100px;
+	box-shadow: 10px 10px 5px;
+	-webkit-transition:width 1s,height 1s,rotate 1s,border-color 1s;
+}
+img:hover{
+	-webkit-transform:rotate(7deg);
+	border-color:green;
+	width:250px;
+	height:250px;
+}
